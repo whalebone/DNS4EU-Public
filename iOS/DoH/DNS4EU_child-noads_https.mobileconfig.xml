@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadIdentifier</key>
+        <string>eu.joindns4.child-noads.https.d22d03c6-d5ea-4807-8638-aa05efbfa7fe</string>
+        <key>PayloadUUID</key>
+        <string>1dc7cff2-ea4a-40b2-8e0f-b878ba087f7c</string>
+        <key>PayloadDisplayName</key>
+        <string>DNS4EU DNS-over-HTTPS Child-noads</string>
+        <key>PayloadDescription</key>
+        <string>Configures DNS-over-HTTPS to use child-noads.joindns4.eu</string>
+        <key>PayloadOrganization</key>
+        <string>Whalebone, s.r.o.</string>
+        <key>DNSSettings</key>
+        <dict>
+          <key>DNSProtocol</key>
+          <string>HTTPS</string>
+          <key>ServerAddresses</key>
+          <array>
+            <string>86.54.11.11</string>
+            <string>86.54.11.211</string>
+            <string>2a13:1001::86:54:11:11</string>
+            <string>2a13:1001::86:54:11:211</string>
+          </array>
+          <key>ServerURL</key>
+          <string>https://child-noads.joindns4.eu/dns-query</string>
+        </dict>
+      </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>DNS4EU DNS-over-HTTPS Child-noads</string>
+    <key>PayloadIdentifier</key>
+    <string>eu.joindns4.child-noads.https.apple</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>54324806-7875-48f5-a29b-04cbacc4bb56</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+  </dict>
+</plist>
