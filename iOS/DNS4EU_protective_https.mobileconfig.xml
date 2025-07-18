@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadIdentifier</key>
+        <string>eu.joindns4.protective.https.61dfabe0-553a-4c4b-8149-76154d248e68</string>
+        <key>PayloadUUID</key>
+        <string>1ba11128-04bb-477b-b4ca-ea8f6d9a141b</string>
+        <key>PayloadDisplayName</key>
+        <string>DNS4EU DNS-over-HTTPS Protective</string>
+        <key>PayloadDescription</key>
+        <string>Configures DNS-over-HTTPS to use protective.joindns4.eu</string>
+        <key>PayloadOrganization</key>
+        <string>Whalebone, s.r.o.</string>
+        <key>DNSSettings</key>
+        <dict>
+          <key>DNSProtocol</key>
+          <string>HTTPS</string>
+          <key>ServerAddresses</key>
+          <array>
+            <string>86.54.11.1</string>
+            <string>86.54.11.101</string>
+            <string>2a13:1001::86:54:11:101</string>
+            <string>2a13:1001::86:54:11:201</string>
+          </array>
+          <key>ServerURL</key>
+          <string>https://protective.joindns4.eu/dns-query</string>
+        </dict>
+      </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>DNS4EU DNS-over-HTTPS Protective</string>
+    <key>PayloadIdentifier</key>
+    <string>eu.joindns4.protective.https.apple</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>a33ab583-cf65-4ee3-9506-6a74fe3001b8</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+  </dict>
+</plist>
