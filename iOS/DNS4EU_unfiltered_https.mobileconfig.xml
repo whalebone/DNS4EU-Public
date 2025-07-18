@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadIdentifier</key>
+        <string>eu.joindns4.unfiltered.https.7564dc1c-2e2e-4edb-8c9e-53525a01d6ee</string>
+        <key>PayloadUUID</key>
+        <string>400068a4-b120-449d-b54e-b3ca6a0b7527</string>
+        <key>PayloadDisplayName</key>
+        <string>DNS4EU DNS-over-HTTPS Unfiltered</string>
+        <key>PayloadDescription</key>
+        <string>Configures DNS-over-HTTPS to use unfiltered.joindns4.eu</string>
+        <key>PayloadOrganization</key>
+        <string>Whalebone, s.r.o.</string>
+        <key>DNSSettings</key>
+        <dict>
+          <key>DNSProtocol</key>
+          <string>HTTPS</string>
+          <key>ServerAddresses</key>
+          <array>
+            <string>86.54.11.100</string>
+            <string>86.54.11.200</string>
+            <string>2a13:1001::86:54:11:100</string>
+            <string>2a13:1001::86:54:11:200</string>
+          </array>
+          <key>ServerURL</key>
+          <string>https://unfiltered.joindns4.eu/dns-query</string>
+        </dict>
+      </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>DNS4EU DNS-over-HTTPS Unfiltered</string>
+    <key>PayloadIdentifier</key>
+    <string>eu.joindns4.unfiltered.https.apple</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>9956027a-8409-48d7-815c-092f7ef9cc27</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+  </dict>
+</plist>
