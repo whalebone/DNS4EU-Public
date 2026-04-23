@@ -33,6 +33,22 @@
           <key>ServerName</key>
           <string>noads.joindns4.eu</string>
         </dict>
+        <key>OnDemandRules</key>
+        <array>
+          <dict>
+            <key>Action</key>
+            <string>Disconnect</string>
+            <key>DNSDomainMatch</key>
+            <array>
+              <string>captive.apple.com</string>
+              <string>*.apple.com</string>
+            </array>
+          </dict>
+          <dict>
+            <key>Action</key>
+            <string>Connect</string>
+          </dict>
+        </array>
       </dict>
     </array>
     <key>PayloadDisplayName</key>
